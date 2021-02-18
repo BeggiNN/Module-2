@@ -1,0 +1,9 @@
+<?php
+$id = 276;
+$_productStock = $block->getStockItem($id);
+echo "quantity - " . $_productStock->getQty(); echo '<br />';
+echo "minimum quantity - " . $_productStock->getMinQty(); echo '<br />';
+echo "minimum sale quantity - " . $_productStock->getMinSaleQty(); echo '<br />';
+echo "maximum sale quantity - " . $_productStock->getMaxSaleQty(); echo '<br />';
+echo "is in stock - " . $_productStock->getIsInStock(); echo '<br />';
+?>
